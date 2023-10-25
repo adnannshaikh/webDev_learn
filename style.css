@@ -1,0 +1,37 @@
+/* body{
+    background-color: aqua;
+} */
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(3, 167, 139);
+}
+nav{
+    flex: 1;
+    text-align: left;
+}
+.logo{
+    width: 50px;
+    float: left;
+}
+
+.list{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    background-color: rgba(255, 0, 106, 0.356);
+    
+}
+.sign{
+   float: right;
+   margin-right: 50px;
+}
+.list,a{
+    text-decoration: none;
+    color: rgb(252, 248, 248);
+}
